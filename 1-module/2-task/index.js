@@ -1,7 +1,7 @@
 /**
  * Эту функцию трогать не нужно
  */
-function print(text) {
+ function print(text) {
   console.log(text);
 }
 
@@ -11,6 +11,9 @@ function print(text) {
  */
 function isValid(name) {
   // ваш код...
+  if(typeof name == 'undefined' || !name || name.length === 0 || name === "" || name.length < 4 || name.includes(" ")) {
+      return false;
+  } else return true;
 }
 
 function sayHello() {
