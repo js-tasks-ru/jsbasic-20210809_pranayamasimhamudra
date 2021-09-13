@@ -36,8 +36,6 @@ export default class RibbonMenu {
     this._ribbon = ribbon;
   }
 
-  // ОБЛАСТИ ВИДИМОСТИ !
-
   moves(element) {
     const arrowRight = element.querySelector(".ribbon__arrow_right");
     const arrowLeft = element.querySelector(".ribbon__arrow_left");

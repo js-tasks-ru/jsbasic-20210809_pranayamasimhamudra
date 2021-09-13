@@ -54,5 +54,3 @@ export default class Modal {
 
   setTitle(data) {
     document.querySelector(".modal__title").append(data);
-  }
-}
