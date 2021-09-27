@@ -14,8 +14,7 @@ export default class Modal {
           <img src="/assets/images/icons/cross-icon.svg" alt="close-icon" />
         </button>
 
-        <h3 class="modal__title">
-        </h3>
+        <h3 class="modal__title"></h3>
       </div>
 
       <div class="modal__body">
@@ -53,6 +52,6 @@ export default class Modal {
   }
 
   setTitle(data) {
-    document.querySelector(".modal__title").append(data);
+    document.querySelector(".modal__title").innerHTML = `${data}`;
   }
 }
